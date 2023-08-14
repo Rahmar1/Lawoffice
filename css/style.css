@@ -1,0 +1,57 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    min-height: 80vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/32ae0c356aa5da39ed571153319a5d7b.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0 3px 10px black;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+}
+
+.nav-link:hover {
+    color: #C8A45B;
+}
+
+.nav-item {
+    margin: 0 30px;
+}
+
+.navbar {
+    box-shadow: 0 3px 10px black;
+}
+
+.btn:hover {
+    background-color: #C8A45B;
+    color: white;
+    border: none;
+}
+
+hr {
+    width: 100px;
+    margin: 20px auto;
+    border: solid 3px rgb(69, 69, 68);
+}
+
+.container i {
+    color: #C8A45B;
+    font-size: 70px;
+}
+
+.login {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/7aaee09d7a91744af388b86a4dd7ab12.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0 3px 10px black;
+    min-height: 50vh;
+}
+
+footer {
+    background-color: rgb(242, 235, 222);
+    height: auto;
+}
